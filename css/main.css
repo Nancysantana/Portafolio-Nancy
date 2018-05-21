@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  justify-content: center;
+}
+.bg {
+  background-image: url("../assets/images/background.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo {
+  border-radius: 50px;
+  margin-top: 25vh;
+  margin-bottom: 2.5vh;
+}
+
+.contac {
+  align-items: stretch;
+  margin-top
+}
+
+.nmb {
+  font-family: 'Courgette';
+  font-size: 6vw;
+  color: white;
+}
+
+.ux {
+  font-family: 'Courgette';
+  font-size: 4vw;
+  color: white;
+}
