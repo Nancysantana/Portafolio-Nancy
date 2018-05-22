@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+p {
+  font-family: 'Radley';
+  font-size: 1.2em;
+}
+
 #myModal {
   background: none;
   border: none;
@@ -78,4 +83,11 @@
 .prtf:hover {
   color: #F7E900;
   border: 3px solid #365884;
+}
+
+.bfPortafolio {
+  background-image: url("../assets/images/bgportafolio.png");
+  background-repeat: round;
+  background-size: cover;
+  min-height: 100vh;
 }
