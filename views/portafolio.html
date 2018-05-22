@@ -9,21 +9,125 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <section class="conteiner-fluid  back d-flex justify-content-center align-items-center">
-      <div class="row">
-        <div class="col">
-          <img src="../assets/images/Logo.png" alt="">
+
+    <section class="container-fluid back">
+      <!--logo-->
+      <header class="row">
+        <div class="col-3 mt-3 ml-3">
+          <a href="portafolio.html"><img src="../assets/images/Logo.png" alt="logo" class="img-fluid"></img>
+          </a>
+        </div>
+      </header>
+
+      <!--Sobre mí-->
+      <div class="row mt-3 mb-3">
+        <div class="col-sm-7 text-center">
+          <h2 class="text-center mt-3">Nancy Santana</h2>
+          <p class="mt-4 ml-3">Soy una persona interesada en aprender día a día, me gusta colaborar y trabajar en equipo, responsable con lo que hago, perseverante y tenaz.
+          </br>Siempre en busca de mi crecimiento personal y profesional.</p>
+        </div>
+        <div class="col-sm-4 mb-5">
+          <img src="../assets/images/nancy.png" alt="foto nancy" class="img-thumbnail img-fluid">
         </div>
       </div>
-      <h1>Nancy santan</h1>
+
+        <!-- <div class="row mb-3">
+          <div class="col-sm-12 ">
+            <div class="row">
+              <div class="offset-sm-4 col-sm-3 ">
+                  <img src="../assets/images/nancy.png" alt="foto nancy" class="img-thumbnail img-fluid">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="offset-sm-2 col-sm-8">
+                  <h2 class="text-center">Nancy Santana</h2>
+                  <p>Soy una persona interesada en aprender día a día, me gusta colaborar y trabajar en equipo, responsable con lo que hago, perseverante y tenaz.
+                  </br>Siempre en busca de mi crecimiento personal y profesional.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- contacto -->
+        <footer class="bgfooter">
+          <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+          <div class="row d-flex justify-content-sm-center">
+            <div class="col-6 col-sm-3 mt-8 ">
+              <!-- boton de modal -->
+              <button id="myModal" type="button" class="btn btn-primary inf" data-toggle="modal" data-target=".bd-example-modal-lg">Contactame</button>
+              <!-- Aquí comienza el modal -->
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content col-8">
+                    <div class="col-12">
+                      <div class="col-2">
+                        <a href="https://github.com/Nancysantana"><i class="fa fa-github" ></i></a>
+                      </div>
+                      <div class="col-2">
+                        <a href="https://www.linkedin.com/in/nancysantana-/"><i class="fa fa-linkedin-square"></i></a>
+                      </div>
+                      <div class="col-2">
+                        <a href="#"><i class="fa fa-slack">Nancy Sanatana</i></a>
+                      </div>
+                      <div class="col-2">
+                        <a href="#"><i class="fa fa-envelope-o">yaretsita.27@gmail.com / nancy.santana.h@gmail.com</i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Aquí termina modal -->
+            </div>
+            <!-- firma -->
+            <div class="col-6 col-sm-4 ">
+              <p>©CopyrigthNancySantanä</p>
+            </div>
+            <!-- link portaolio -->
+            <div class="col-6 offset-1 col-sm-3">
+              <a class="prtf" href="proyectos.html">Portafolio</a>
+            </div>
+          </div>
+        </footer>
+      </section>
+
+      <section>
+      <!-- <footer>
+        <div class="row ftn">
+          <div class="col-sm-8 ">
+            <div class="col-6 ">
+              <button id="myModal" type="button" class="btn btn-primary inf" data-toggle="modal" data-target=".bd-example-modal-lg">Contactame</button> -->
+                <!-- <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content col-8">
+                      <div class="col-12">
+                        <div class="col-2">
+                          <a href="https://github.com/Nancysantana"><i class="fa fa-github" ></i></a>
+                        </div>
+                        <div class="col-2">
+                          <a href="https://www.linkedin.com/in/nancysantana-/"><i class="fa fa-linkedin-square"></i></a>
+                        </div>
+                        <div class="col-2">
+                          <a href="#"><i class="fa fa-slack">Nancy Sanatana</i></a>
+                        </div>
+                        <div class="col-2">
+                          <a href="#"><i class="fa fa-envelope-o">yaretsita.27@gmail.com / nancy.santana.h@gmail.com</i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+
+            <!-- </div>
+          </div>
+        </div>
+      </footer> -->
     </section>
 
-
-
-
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/popper.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/home.js"></script>
   </body>
 </html>

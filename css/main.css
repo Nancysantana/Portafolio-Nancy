@@ -1,14 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+#myModal {
+  background: none;
+  border: none;
+  color: blue;
+  padding: 0;
 }
 
 .bg {
   background-image: url("../assets/images/background.png");
+  background-repeat: round;
   background-size: cover;
-  background-position: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 
@@ -29,9 +35,25 @@
 /* seccion 2 */
 
 .back {
+  /* background: pink; */
   background-image: url("../assets/images/back.png");
-  /* background-repeat: no-repeat; */
+  background-repeat: round;
   background-size: cover;
-  background-position: center;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.bgfooter {
+  background-color: rgba(93,191, 220, 0.7);
+  padding: 0;
+  margin: 0;
+}
+
+.fnt {
+  font-family: 'Courgette';
+  font-size: 2em;
+}
+
+.prtf {
+  text-decoration: none;
+  color: blue;
 }
