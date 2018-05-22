@@ -1,2 +1,2 @@
 setTimeout(function() {
-  window.location = "views/portafolio.html" }, 4000);
+  window.location = "views/home.html" }, 4000);

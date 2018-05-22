@@ -7,7 +7,14 @@
   background: none;
   border: none;
   color: blue;
+  font-family: 'Courgette';
+  font-size: 2em;
   padding: 0;
+}
+
+#myModal:hover {
+  color: #F7E900;
+  border: 3px solid #365884;
 }
 
 .bg {
@@ -48,12 +55,27 @@
   margin: 0;
 }
 
+.bgModal {
+  /* background-color: #ffffff; */
+  background-image: url("../assets/images/fondo.png");
+  background-repeat: round;
+  background-size: cover;
+  min-height: 100vh;
+}
+
 .fnt {
   font-family: 'Courgette';
   font-size: 2em;
 }
 
 .prtf {
-  text-decoration: none;
   color: blue;
+  font-family: 'Courgette';
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.prtf:hover {
+  color: #F7E900;
+  border: 3px solid #365884;
 }
