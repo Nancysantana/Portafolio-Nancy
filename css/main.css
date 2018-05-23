@@ -5,21 +5,29 @@
 
 p {
   font-family: 'Radley';
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
+
+title {
+  color: pink;
+}
+
 
 #myModal {
   background: none;
   border: none;
-  color: blue;
-  font-family: 'Courgette';
-  font-size: 2em;
-  padding: 0;
+  /* color: blue; */
+  /* font-family: 'Courgette'; */
+  /* font-size: 2em;
+  padding: 0; */
+}
+#myModal > i {
+  color:#F4BDFF;
 }
 
-#myModal:hover {
-  color: #F7E900;
-  border: 3px solid #365884;
+#myModal:hover > i {
+  color: #E76EFE;
+  /* border: 3px solid #365884; */
 }
 
 .bg {
@@ -32,14 +40,14 @@ p {
 
 .nmb {
   font-family: 'Courgette';
-  font-size: 5vw;
+  font-size: 3rem;
   color: white;
-  margin-top: 2vh;
+  /* margin-top: 2vh; */
 }
 
 .ux {
   font-family: 'Courgette';
-  font-size: 3vw;
+  font-size: 2rem;
   color: white;
 }
 
@@ -55,7 +63,7 @@ p {
 }
 
 .bgfooter {
-  background-color: rgba(93,191, 220, 0.7);
+  background-color: rgba(0,0,0,0.5);
   padding: 0;
   margin: 0;
 }
@@ -74,15 +82,16 @@ p {
 }
 
 .prtf {
-  color: blue;
-  font-family: 'Courgette';
+  color: #F4BDFF;
+  min-height: 100vh;
+  /* font-family: 'Courgette';
   font-size: 2em;
-  text-decoration: none;
+  text-decoration: none; */
 }
 
 .prtf:hover {
-  color: #F7E900;
-  border: 3px solid #365884;
+  color: #E76EFE;
+  /* border: 3px solid #365884; */
 }
 
 .bfPortafolio {
@@ -90,4 +99,14 @@ p {
   background-repeat: round;
   background-size: cover;
   min-height: 100vh;
+}
+
+/* proyectos*/
+.bgtxt {
+  background-color: rgba(244,219,254, 0.5);
+  color: rgba(252,251,252,.9)
+}
+
+.rotacion { 
+  transform:perspective(600px) rotateX(400deg);
 }
