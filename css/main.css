@@ -3,110 +3,90 @@
   padding: 0;
 }
 
-p {
-  font-family: 'Radley';
-  font-size: 1.2rem;
-}
-
-title {
-  color: pink;
-}
-
-
-#myModal {
-  background: none;
-  border: none;
-  /* color: blue; */
-  /* font-family: 'Courgette'; */
-  /* font-size: 2em;
-  padding: 0; */
-}
-#myModal > i {
+ i {
   color:#F4BDFF;
 }
 
-#myModal:hover > i {
+ i:hover {
   color: #E76EFE;
-  /* border: 3px solid #365884; */
+}
+
+div > h2 {
+  font-family: 'Rochester';
+  font-size: 3em;
 }
 
 .bg {
-  background-image: url("../assets/images/background.png");
+  background-image: url("../assets/images/ux.png");
   background-repeat: round;
   background-size: cover;
   min-height: 100vh;
 }
 
-
-.nmb {
-  font-family: 'Courgette';
-  font-size: 3rem;
-  color: white;
-  /* margin-top: 2vh; */
+.bg-menú {
+  background-color: #EDCDCD;
+  height: 100vh;
 }
 
-.ux {
-  font-family: 'Courgette';
-  font-size: 2rem;
-  color: white;
+.bg-menú-mov {
+  background-color: #EDCDCD;
 }
 
-
-/* seccion 2 */
-
-.back {
-  /* background: pink; */
-  background-image: url("../assets/images/back.png");
-  background-repeat: round;
-  background-size: cover;
-  min-height: 100vh;
+.bg-v {
+  background-color: #5D8E92;
+  height: 5vh;
+  min-height: 10vh;
+  min-width: 100vw;
 }
 
-.bgfooter {
-  background-color: rgba(0,0,0,0.5);
-  padding: 0;
-  margin: 0;
+.btnn {
+  background-color: white;
+  border:none;
+  color: #000000;
+  margin: 4px 6px;
 }
 
-.bgModal {
-  /* background-color: #ffffff; */
-  background-image: url("../assets/images/fondo.png");
-  background-repeat: round;
-  background-size: cover;
-  min-height: 100vh;
+.btnn:hover {
+  background-color: #BA8959;
+  color: #ffffff  ;
 }
 
-.fnt {
-  font-family: 'Courgette';
-  font-size: 2em;
+.m-t {
+  margin-top: 35px;
 }
 
-.prtf {
-  color: #F4BDFF;
-  min-height: 100vh;
-  /* font-family: 'Courgette';
-  font-size: 2em;
-  text-decoration: none; */
+.mt5 {
+  margin-top: 3rem;
 }
 
-.prtf:hover {
-  color: #E76EFE;
-  /* border: 3px solid #365884; */
+.p-r {
+  padding-right: 0px;
 }
 
-.bfPortafolio {
-  background-image: url("../assets/images/bgportafolio.png");
-  background-repeat: round;
-  background-size: cover;
-  min-height: 100vh;
+.txt {
+  color: rgb(0,0,0);
+  font-family:  'Rochester';
+  font-size: 1.3rem;
+  text-shadow: 1px 2px 6px #E2256F;
 }
 
-/* proyectos*/
-.bgtxt {
-  background-color: rgba(244,219,254, 0.5);
-  color: rgba(252,251,252,.9)
+.txtp {
+  color: #292829;
+  font-family:  'Reem Kufi' ;
+  font-size: 1.2em;
 }
 
-.rotacion { 
-  transform:perspective(600px) rotateX(400deg);
+.txt2 {
+  color: #292829;
+  font-style: 'Reem Kufi';
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 992px) {
+  .mt5 {
+    margin-top: 25vh;
+  }
+  .co-m {
+    margin-bottom: 3rem;
+  }
 }

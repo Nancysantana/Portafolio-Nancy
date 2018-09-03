@@ -7,178 +7,170 @@
     <link rel="icon" href="../assets/images/nany1.ico">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Reem+Kufi|Rochester" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
-
-    <section class="container-fluid back">
-      <!--logo-->
-      <header class="row">
-        <div class="col-10">
-          <div class=" offset-1 col-3 col-sm-2">
-            <a href="portafolio.html"><img src="../assets/images/Logo.png" alt="logo" class="img-fluid rotacion"></img></a>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 fixed-top d-none d-sm-block">
+          <div class="row bg-menú">
+            <div class=" offset-1 col-lg-10">
+              <img src="../assets/images/Logo.png"  class="img-fluid" alt="Logo">
+            </div>
+            <div class="offset-2 col-lg-8 text-center">
+              <button id="sobremi" data-name="sobremi" type="button" style="background-color: transparent; color: #BA8959; border: none; margin: 4px 3px; font-size: 1.5em; " name="button">Acerca de mí</button>
+              <button id="portafolio" data-name="portafolio" type="button"  style="background-color: transparent; color: #BA8959; border: none; margin: 4px 6px; font-size: 1.5em;" name="button">Portafolio</button>
+              <button id="contacto" data-name="contacto" type="button"  style="background-color: transparent; color: #BA8959; border: none; margin: 4px 6px; font-size: 1.5em;" name="button">Contacto</button>
+            </div>
           </div>
         </div>
-      </header>
-      <!--sobre mí  -->
-      <div class="row">
-        <div class="offset-1 col-7">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="text-center mt-3">Nancy Santana</h2>
+        <!-- menú mov. -->
+         <!-- fixed-top d-none d-sm-block -->
+        <div class="col-12  fixed-top d-block d-sm-none">
+          <div class="row bg-menú-mov">
+            <div class="offset-3 col-6" style="height: 14vh;">
+              <img src="../assets/images/Logo.png" class="img-fluid" style="margin-top: 11px;"alt="Logo">
+            </div>
+            <div class="col-12 bg-v text-center">
+              <button id="sobremimovil" data-name="sobremi" type="button" style="background-color: transparent; color: #FFFFFF; border: none; margin: 4px 6px" name="button">Acerca de mí</button>
+              <button id="portafoliomovil" data-name="portafolio" type="button" style="background-color: transparent; color: #FFFFFF; border: none; margin: 4px 6px" name="button">Portafolio</button>
+              <button id="contactomovil" data-name="contacto" type="button" style="background-color: transparent; color: #FFFFFF; border: none; margin: 4px 6px" name="button">Contacto</button>
             </div>
           </div>
+        </div>
+        <!--Linea verde-->
+        <div class="offset-lg-3 col-lg-9">
           <div class="row">
-            <div class="col-12 ">
-              <p class="mt-3 text-center"><i class="fas fa-quote-left"></i>Soy una persona interesada en aprender día a día, me gusta colaborar y trabajar en equipo  <i class="fas fa-people-carry"></i> , responsable con lo que hago, perseverante y tenaz.
-              </br>Siempre en busca de mi crecimiento personal y profesional.<i class="fas fa-quote-right"></i></p>
-
-              <p><i class="fas fa-font"></i>mo pasar tiempo con mi familia <i class="far fa-heart"></i>, me gusta mucho comer <i class="fas fa-utensils"></i> probar cosas nuevas y en mi tiempo libre veo videos <i class="fab fa-youtube"></i> musicales, educativos y películas <i class="fas fa-film"></i> ó salgo a distraerme.</p>
-              <hr><p> Me gusta observar a mi alrededor y conocer personas nuevas e increíbles, he conocido muchas actualmente, en un futuro me gustaría viajar   <i class="fas fa-plane"></i> para conocer nuevos lugares, estudiar <i class="fas fa-camera-retro"></i> fotografía, diseño, alguna profesión y realizar nuevos proyectos para mejorar la experiencia de nuestros usuarios  <i class="fas fa-users"></i>.</p>
-              <p>Soy Ux Designer <i class="fas fa-user-graduate"></i> egresada de Laboratoria CDMX, gracias a los profesores y compañeras de Laboratoria he aprendido Herramientas   <i class="fas fa-laptop"></i> nuevas que he utilizado para realizar mis proyectos, es increíbe como una idea   <i class="far fa-lightbulb"></i> puede llegar hacerse realidad y haces que la imaginación vuele alto hasta crear increíbles cosas, es tan mágico <i class="fas fa-magic"></i>.</p>
+            <div class="offset-lg-3 col-lg-9 bg-v fixed-top d-none d-sm-block">
             </div>
-          </div>
-          <div class="row text-center">
-            <div class="col-8">
-              <h4 class="text-center">Habilidades</h4>
+            <!-- sobre mí -->
+            <div id="sobremiinfo" class="col-lg-12 text-center mt5">
+              <h2 class="" style="height:80px;"> Nancy Santana</h2>
+              <div class="offset-lg-4 offset-2 col-8 col-lg-4">
+                <img src="../assets/images/nancys.png" class="img-fluid" alt="Foto nancy">
+              </div>
+              <p class="mt-5 txt2">Soy una persona interesada en aprender día a día, me gusta colaborar y trabajar en equipo, responsable con lo que hago, perseverante y tenaz.</p>
+              <p class="txt2">Siempre en busca de mi crecimiento personal y profesional.</p>
             </div>
-            <div class="row">
-              <div class="col-10 mt-2 mb-5">
-                <img src="../assets/images/skills.png" alt="skills" class="img-fluid"></img>
+            <!-- proyectos -->
+            <div id="proyectoinfo" class="col-lg-12 mt5" hidden>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="card">
+                    <div class="col-lg-12 mt-3">
+                      <img src="../assets/images/bbva.png" class="img-fluid" alt="BBVAPlan">
+                    </div>
+                    <div class="card-body text-center">
+                      <h3 class="card-title">BBVAPlan</h3>
+                      <p class="card-text txtp">Es una aplicación que te ayuda a crear metas de ahorro personalizado, escogiendo reglas de ahorro a tu gusto de manera gratuita y sin comisiones.</p>
+                      </p>
+                      <a href="https://github.com/Nancysantana/BBVAPlanCobraUnit" class="btn btnn" target="_blank">Leer más</a>
+                      <a href="https://invis.io/M7GS95C9SCA" class="btn btnn" target="_blank"> Proyecto</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-lg-6">
+                    <div class="card">
+                      <div class="col-lg-12 mt-3">
+                        <img src="../assets/images/360.png" class="img-fluid" alt="BBVAPlan">
+                      </div>
+                      <div class="card-body text-center">
+                        <h3 class="card-title">Viaje Seguro 360</h3>
+                        <p class="card-text txtp">Proyecto de optimización de journey del usuario al viajar de Ciudad de México a Cuernavaca y propuesta de solución basada en investigación.</p>
+                        </p>
+                        <a href="https://github.com/Nancysantana/Viaje-seguro-360" class="btn btnn" >Leer más</a>
+                        <a href="https://fotos.subefotos.com/4a9cf0cc537a129767754593b99889f2o.png" class="btn btnn" target="_blank">Proyecto</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="card">
+                      <div class="col-lg-12 mt-3">
+                        <img src="../assets/images/savethechildren.png" class="img-fluid" alt="BBVAPlan">
+                      </div>
+                      <div class="card-body text-center">
+                        <h3 class="card-title">Save the children</h3>
+                        <p class="card-text txtp">Optimizar una Landing Page con el objetivo de crear una solución para optimizar el journey de un usuario que llega a Landing Page de Save The Children y convertirlo en DONANTES.</p>
+                        <a href="https://github.com/Nancysantana/save_the_children" class="btn btnn" target="_blank" >Leer más</a>
+                        <a href="https://andreagurod.wixsite.com/save2save" class="btn btnn" target="_blank">Proyecto</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card">
+                      <div class="col-lg-12 mt-3">
+                        <img src="../assets/images/foodmap.png" class="img-fluid" alt="BBVAPlan">
+                      </div>
+                      <div class="card-body text-center">
+                        <h3 class="card-title">Foodmap</h3>
+                        <p class="card-text txtp">Permite realizar una busqueda de tipos de comida la cual te mostrara el nombre de los Restaurantes. Te ofrece la dirección, sugerencia de platillo y si cuenta con servicio a domicilio.</p>
+                        <a href="https://nancysantana.github.io/foodmap/" class="btn btnn" target="_blank">Leer más</a>
+                        <a href="https://github.com/Nancysantana/foodmap" class="btn btnn" target="_blank">Proyecto</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-
+            <!--contacto-->
+            <div id="contactoinfo" class="col-12 mt5" hidden>
+              <div class="row">
+                <div class="col-lg-6 col-12 co-m">
+                  <h2 class="text-center mb-5">Habilidades</h2>
+                  <img src="../assets/images/habilidad.png" class="img-fluid" alt="Foto nancy">
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h2 class="text-center mb-5">Contacto</h2>
+                    </div>
+                    <div class="row">
+                      <div class="offset-lg-3  col-3 col-lg-2 text-center">
+                        <a href="https://drive.google.com/file/d/1KeU38Y4cG7rXzWX9urg6ViFhGoLOxe6U/view" target="_blank" class="col-lg-11"><i class="far fa-file fa-2x"></i></a>
+                      </div>
+                      <div class="col-9 col-lg-7 ">
+                        <p class="txt">Resumen Nancy Santana</p>
+                      </div>
+                      <div class="offset-lg-3 col-3 col-lg-2 text-center">
+                        <a href="#" class="col-lg-2"><i class="far fa-envelope fa-2x"></i></a>
+                      </div>
+                      <div class="col-9 col-lg-7">
+                        <p class="txt">nancy.santana.h@gmail.com</p>
+                      </div>
+                      <div class="offset-lg-3 col-3 col-lg-2  text-center">
+                        <a href="#" class="col-lg-12"><i class="fas fa-mobile-alt fa-2x"></i></a>
+                      </div>
+                      <div class="col-9 col-lg-7">
+                        <p class="txt">(55) 67 66 04 70</p>
+                      </div>
+                      <div class="offset-lg-3 col-3 col-lg-2 text-center">
+                        <a href="https://github.com/Nancysantana" target="_blank" class="col-lg-12" ml-5>  <i class="fab fa-github fa-2x "></i> </a>
+                      </div>
+                      <div class="col-9 col-lg-7">
+                        <p class="txt">NancySantana</p>
+                      </div>
+                      <div class="offset-lg-3 col-3 col-lg-2 text-center">
+                        <a href="https://www.linkedin.com/in/nancysantana-/" target="_blank" class="col-lg-12"><i class="fab fa-linkedin-in fa-2x "></i></a>
+                      </div>
+                      <div class="col-9 col-lg-7">
+                        <p class="txt">Nancy santana</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-3 mt-3 d-flex align-items-center">
-          <img src="../assets/images/nancy.png" alt="foto nancy" class="img-thumbnail img-fluid">
         </div>
       </div>
-      <!-- menú footer  -->
-      <footer class="row bgfooter d-flex justify-content-center align-items-center">
-          <div class="offset-1 col-3">
-            <a class="prtf" href="https://drive.google.com/file/d/1KeU38Y4cG7rXzWX9urg6ViFhGoLOxe6U/view"target="_blank"><i class="fas fa-user-friends fa-2x"></i></i></a>
-          </div>
-          <div class="col-3">
-            <!-- boton de modal -->
-            <button id="myModal" type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="far fa-address-book fa-2x"></i></button>
-            <!-- Aquí comienza el modal -->
-              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content col-12 bgModal">
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="col-3 mt-3 mb-5">
-                          <a href="portafolio.html"><img src="../assets/images/Logo.png" alt="logo" class="img-fluid"></img>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-5 ml-2">
-                      <div class="offset-1 col-3">
-                        <a href="https://github.com/Nancysantana"><i class="fab fa-github fa-2x"></i></i></a>
-                      </div>
-                      <div class="col-3">
-                        <a href="https://www.linkedin.com/in/nancysantana-/"><i class="fab fa-linkedin-in fa-2x"></i></i></a>
-                      </div>
-                      <div class="col-3">
-                        <a href="https://drive.google.com/file/d/1KeU38Y4cG7rXzWX9urg6ViFhGoLOxe6U/view" target="_blank"><i class="far fa-address-card fa-2x">C.V</i></a>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="offset-2 col-8 mb-5">
-                        <a href="https://accounts.google.com/Login/signinchooser?hl=ES&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="far fa-envelope-open fa-2x"></i> yaretsita.27@gmail.com / nancy.santana.h@gmail.com</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <div class="col-3">
-            <a class="prtf" href="proyectos.html" target="_blank"><i class="fas fa-briefcase fa-2x"></i></a>
-          </div>
-      </footer>
     </section>
-      <!-- <header class="row">
-        <div class="col-3 mt-3 ml-3">
-          <a href="portafolio.html"><img src="../assets/images/Logo.png" alt="logo" class="img-fluid"></img>
-          </a>
-        </div>
-      </header> -->
 
-      <!--Sobre mí-->
-      <!-- <div class="row mt-3 mb-3">
-        <div class="col-sm-7 text-center">
-          <h2 class="text-center mt-3">Nancy Santana</h2>
-          <p class="mt-4 ml-3"><i class="fas fa-quote-left"></i>Soy una persona interesada en aprender día a día, me gusta colaborar y trabajar en equipo, responsable con lo que hago, perseverante y tenaz.
-          </br>Siempre en busca de mi crecimiento personal y profesional.<i class="fas fa-quote-right"></i></p>
-
-          <p class="ml-4 mt-5">Nancy es una profesional integral. Ha sabido aprovechar cada una de las herramientas que Laboratoria le ha dado con excelencia, agilidad y perseverencia. Es muy adaptable y no tiene miedo a los retos. Es de mucho valor en un equipo de trabajo.
-          </br><strong><cite title="Source Title">Lucile Baratier, Laboratoria</cite></strong></p>
-          <p class="ml-4">Nancy ha salido adelante de cada dificultad que ha atravesado su camino, enfrenta las experiencias desde una postura de autorresponsabilidad y compromiso
-          </br><strong><cite title="Source Title">Paulina Treviño, Laboratoria</cite></strong></p>
-            <p class="ml-4">Nancy ha tenido un crecimiento impresionante a lo largo del bootcamp. Desde que comenzó en el track de UX, se ha desenvuelto de forma extraordinaria y ha demostrado ser toda una profesional. Sin duda su perseverancia la va a hacer triunfar donde ella esté.
-          </br><strong><cite title="Source Title">Karla Nava, Laboratoria</cite></strong></</p>
-        </div>
-        <div class="col-sm-4 mb-5">
-          <img src="../assets/images/nancy.png" alt="foto nancy" class="img-thumbnail img-fluid">
-        </div>
-      </div> -->
-
-      <!-- contacto -->
-        <!-- <footer class="bgfooter "> -->
-          <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-          <!-- <div class="row d-flex justify-content-center">
-            <div class="col-6 col-sm-6 mt-8 d-flex align-items-center"> -->
-              <!-- boton de modal -->
-              <!-- <button id="myModal" type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="far fa-address-book fa-3x"></i></button> -->
-              <!-- Aquí comienza el modal -->
-              <!-- <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content col-12 bgModal">
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="col-3 mt-3 mb-5">
-                          <a href="home.html"><img src="../assets/images/Logo.png" alt="logo" class="img-fluid"></img>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-5 ml-2">
-                      <div class="offset-1 col-3">
-                        <a href="https://github.com/Nancysantana"><i class="fab fa-github fa-2x"></i></i></a>
-                      </div>
-                      <div class="col-3">
-                        <a href="https://www.linkedin.com/in/nancysantana-/"><i class="fab fa-linkedin-in fa-2x"></i></i></a>
-                      </div>
-                      <div class="col-3">
-                        <a href=""><i class="far fa-address-card fa-2x">C.V</i></a>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="offset-2 col-8 mb-5">
-                        <a href="https://accounts.google.com/Login/signinchooser?hl=ES&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="far fa-envelope-open fa-2x"></i> yaretsita.27@gmail.com / nancy.santana.h@gmail.com</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-              <!--Aquí termina modal -->
-            <!-- </div> -->
-            <!-- firma -->
-            <!-- <div class="col-4 col-sm-4 ">
-              <p>©CopyrigthNancySantanä</p>
-            </div> -->
-            <!-- link portaolio -->
-            <!-- <div class="col-6  col-sm-4 d-flex justify-content-md-center">
-              <a class="prtf" href="proyectos.html"><i class="fas fa-briefcase fa-3x"></i></a>
-            </div>
-          </div>
-        </footer> -->
     <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="../js/popper.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../js/home.js"></script>
+    <script src="../js/pagechange.js" charset="utf-8"></script>
   </body>
 </html>
